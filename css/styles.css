@@ -1,0 +1,55 @@
+* {
+    color: #fff !important;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.box {
+    margin: auto;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+p {
+    display: inline;
+    margin: 10px
+}
+
+
+/* .man-laptop-img {
+    width: 75vh;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+} */
+
+.red-background {
+    background-color: #ff3c3c;
+}
+
+.clients-ad {
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.guia {
+    width: 85%;
+}
+
+footer {
+    font-size: 20px;
+}

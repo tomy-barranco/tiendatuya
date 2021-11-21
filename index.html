@@ -6,13 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiendatuya</title>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/8c52c98b5b.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <h1>Hola</h1>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark red-background">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">tiendatuya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fas fa-home" aria-current="page" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fas fa-shopping-cart" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fas fa-info-circle" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fas fa-question-circle" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fas fa-at" href="#"></a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+
+    <div class="box red-background guia">
+        <p class="bold">¡Bienvenid@!</p>
+        <div class="fas fa-heart"></div>
+        <br> Esto es Tiendatuya, es como Tiendamia, pero no es mía, es tuya, ¿se entiende?
+        <br> Bueno, andate a otra sección porque acá no hay mucho, pero si no sabes a donde ir, te dejo una guía, por las dudas.
+        <br>
+        <div class="fas fa-home"></div> Es esta página, el inicio.
+        <br>
+        <div class="fas fa-shopping-cart"></div> Es la página de compras, ahí están todos los productos disponibles.
+    </div>
+    <br>
+    <br>
+    <div class="box red-background clients-ad">
+        <p class="bold">¡MÁS DE 0 CLIENTES SATISFECHOS!</p>
+        <br>
+        <br>
+        <img src="img/man-laptop.jpg" alt="Cliente satisfecho." class="man-laptop-img">
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <footer class="red-background">
+        <p class="bold">tiendamia | Tomas Barranco | 2021</p>
+        <a href="https://github.com/tomy-dev/tiendatuya" class="fab fa-github"></a>
+        <a class="nav-link fas fa-at" href="#"></a>
+    </footer>
 </body>
 
 </html>
