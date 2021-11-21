@@ -53,8 +53,23 @@ border-radius: 5%;
 
 footer {
     font-size: 18px;
+    position: relative;
+    top: 57vh !important;
+    padding-bottom: 1vh;
 }
 
 input::placeholder {
     color: #fff !important;
+}
+
+.red-font {
+    color: #ff3c3c !important;
+}
+
+.title {
+    text-align: center;
+}
+
+.form {
+    height: 100%;
 }
