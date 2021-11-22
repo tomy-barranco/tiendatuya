@@ -82,3 +82,9 @@ textarea::placeholder {
 .checkbox {
   font-family: 'Montserrat', sans-serif;
 }
+
+.card {
+  margin: 15px;
+  width: 30vh;
+  background-color: #ff3c3c !important;
+}
