@@ -62,6 +62,10 @@ input::placeholder {
     color: #fff !important;
 }
 
+textarea::placeholder {
+  color: #fff !important;
+}
+
 .red-font {
     color: #ff3c3c !important;
 }
@@ -72,4 +76,8 @@ input::placeholder {
 
 .form {
     height: 100%;
+}
+
+.checkbox {
+  font-family: 'Montserrat', sans-serif;
 }
