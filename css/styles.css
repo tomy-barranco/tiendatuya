@@ -1,5 +1,6 @@
 * {
     color: #fff !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .navbar {
@@ -41,6 +42,10 @@ border-radius: 5%;
     background-color: #ff3c3c;
 }
 
+.different-red-background {
+    background-color: #d12f2f !important;
+}
+
 .clients-ad {
     width: 85%;
     text-align: center;
@@ -64,7 +69,7 @@ input::placeholder {
 }
 
 textarea::placeholder {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 .red-font {
@@ -80,11 +85,19 @@ textarea::placeholder {
 }
 
 .checkbox {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card {
-  margin: 15px;
-  width: 30vh;
-  background-color: #ff3c3c !important;
+    margin: 15px;
+    width: 30vh;
+    background-color: #ff3c3c !important;
+}
+
+.buy-box {
+    box-shadow: 10px 5px 30px black;
+    cursor: pointer;
+    border: none !important;
+    margin: 0 auto !important;
+    font-weight: 700 !important;
 }
